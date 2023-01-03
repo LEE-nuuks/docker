@@ -24,3 +24,7 @@ about docker
 - remove or delete docker container from the container list
   - `$ docker rm <name-of-your-container> -f`
 
+
+- sign in docker container shell
+  - `$ docker exec -it <name-of-your-docker-container> bash`
+
