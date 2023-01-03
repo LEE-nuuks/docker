@@ -8,5 +8,7 @@ about docker
   - `$ docker image ls`
 - create/run container
   - `$ docker run -d --name <name-of-your-docker-container> <name-of-your-docker-image>`
+- set port forwarding
+  - `$ docker run -p <local-port>:<host-port> -d --name <name-of-your-docker-container> <name-of-your-docker-image>`
 - bind mount
   - `-v` `<pathtofolderonlocation>`:`<pathtofolderoncontainer>`
