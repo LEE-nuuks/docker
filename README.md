@@ -6,6 +6,8 @@ about docker
     - `.` means location of all the single files of the current directory
 - see image list
   - `$ docker image ls`
+- remove image from image list
+  - `$ docker image rm <id-of-your-image>`
 - create/run container
   - without set up name of docker container 
     - `$ docker run -d <name-of-your-docker-image>`
