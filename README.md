@@ -14,10 +14,11 @@ about docker
 - set port forwarding
   - `$ docker run -p <local-port>:<host-port> -d --name <name-of-your-docker-container> <name-of-your-docker-image>`
 - sync with local folder
+  - bind mount
+    - `$ ....-v <pathtofolderonlocation>:<pathtofolderoncontainer> ....`
   - `$ docker run -v <pathtofolderonlocation>:<pathtofolderoncontainer> -p <local-port>:<host-port> -d --name <name-of-your-docker-container> <name-of-your-docker-image>`
 - see list of running docker container
   - `$ docker ps`
 - remove or delete docker container from the container list
   - `$ docker rm <name-of-your-container> -f`
-- bind mount
-  - `-v <pathtofolderonlocation>:<pathtofolderoncontainer>`
+
